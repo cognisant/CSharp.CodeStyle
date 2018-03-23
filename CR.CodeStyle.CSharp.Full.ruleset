@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<RuleSet Name="CR.CodeStyle.CSharp.Full" Description="The custom ruleset file for C# used at Cognisant (with documentation rules.)" ToolsVersion="10.0">
+<RuleSet Name="CR.CodeStyle.CSharp.Full" Description="The custom ruleset file for C# used at Cognisant (with documentation rules.)" ToolsVersion="15.0">
   <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
     <Rule Id="CA1001" Action="Warning" />
     <Rule Id="CA1009" Action="Warning" />
@@ -64,12 +64,15 @@
     <Rule Id="CA2241" Action="Warning" />
     <Rule Id="CA2242" Action="Warning" />
   </Rules>
+  <Rules AnalyzerId="Microsoft.CodeAnalysis.CSharp" RuleNamespace="Microsoft.CodeAnalysis.CSharp">
+    <Rule Id="CS1591" Action="None" />
+  </Rules>
   <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
-    <Rule Id="SX1309S" Action="Warning" />
-    <Rule Id="SX1309" Action="Warning" />
-    <Rule Id="SX1101" Action="Warning" />
     <Rule Id="SA1101" Action="None" />
     <Rule Id="SA1309" Action="None" />
     <Rule Id="SA1602" Action="None" />
+    <Rule Id="SX1101" Action="Warning" />
+    <Rule Id="SX1309" Action="Warning" />
+    <Rule Id="SX1309S" Action="Warning" />
   </Rules>
 </RuleSet>
