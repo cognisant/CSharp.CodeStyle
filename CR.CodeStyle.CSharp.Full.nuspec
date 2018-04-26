@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>CR.CodeStyle.CSharp.Full</id>
+    <version>0.0.0</version>
+    <authors>Jon Bradford</authors>
+    <owners>Jon Bradford</owners>
+    <licenseUrl>https://github.com/cognisant/cr-csharp-codestyle/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/cognisant/cr-csharp-codestyle</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/cognisant/cr-csharp-codestyle/master/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The custom ruleset file for Style Cop used at Cognisant</description>
+    <releaseNotes>Initial Release.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Cognisant Stylecop Style cop cr</tags>
+    <dependencies>
+      <dependency id="StyleCop.Analyzers" version="1.1.0-beta006" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="CR.CodeStyle.CSharp.Full.ruleset" target="" />
+    <file src="stylecop.json" target="" />
+    <file src="CR.CodeStyle.CSharp.Full.props" target="build" />
+  </files>
+</package>
