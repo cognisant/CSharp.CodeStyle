@@ -4,15 +4,15 @@
     <id>CR.CodeStyle.CSharp.Full</id>
     <version>0.0.0</version>
     <authors>Jon Bradford</authors>
-    <owners>Jon Bradford</owners>
-    <licenseUrl>https://github.com/cognisant/cr-csharp-codestyle/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/cognisant/cr-csharp-codestyle</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/cognisant/cr-csharp-codestyle/master/logo.png</iconUrl>
+    <owners>Cognisant Research</owners>
+    <licenseUrl>https://github.com/cognisant/CodeStyle.CSharp/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/cognisant/CodeStyle.CSharp/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/cognisant/CodeStyle.CSharp/master/logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>The custom ruleset file for Style Cop used at Cognisant</description>
-    <releaseNotes>Initial Release.</releaseNotes>
-    <copyright>Copyright 2018</copyright>
-    <tags>Cognisant Stylecop Style cop cr</tags>
+    <description>The custom ruleset file for Style Cop used at Cognisant Research</description>
+    <releaseNotes>Updating Copyright and GitHub References</releaseNotes>
+    <copyright>Copyright Research 2018</copyright>
+    <tags>Cognisant Stylecop Style cop cr cognisant CR stylecop</tags>
     <dependencies>
       <dependency id="StyleCop.Analyzers" version="[1.1.0-beta006]" />
     </dependencies>
