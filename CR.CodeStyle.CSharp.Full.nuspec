@@ -10,11 +10,11 @@
     <iconUrl>https://raw.githubusercontent.com/cognisant/CodeStyle.CSharp/master/logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The custom ruleset file for Style Cop used at Cognisant Research</description>
-    <releaseNotes>Updating Copyright and GitHub References</releaseNotes>
+    <releaseNotes>Updating Copyright and GitHub References. Updated to StyleCop.Analyzers 1.1.0-beta007.</releaseNotes>
     <copyright>Copyright Research 2018</copyright>
     <tags>Cognisant Stylecop Style cop cr cognisant CR stylecop</tags>
     <dependencies>
-      <dependency id="StyleCop.Analyzers" version="[1.1.0-beta006]" />
+      <dependency id="StyleCop.Analyzers" version="[1.1.0-beta007]" />
     </dependencies>
     <developmentDependency>true</developmentDependency>
   </metadata>
