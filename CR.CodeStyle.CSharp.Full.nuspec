@@ -5,9 +5,9 @@
     <version>0.0.0</version>
     <authors>Jon Bradford</authors>
     <owners>Cognisant Research</owners>
-    <licenseUrl>https://github.com/cognisant/CodeStyle.CSharp/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/cognisant/CodeStyle.CSharp/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/cognisant/CodeStyle.CSharp/master/logo.png</iconUrl>
+    <licenseUrl>https://github.com/cognisant/CodeStyle.CSharp.Full/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/cognisant/CodeStyle.CSharp.Full/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/cognisant/CodeStyle.CSharp.Full/master/logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The custom ruleset file for Style Cop used at Cognisant Research</description>
     <releaseNotes>Updating Copyright and GitHub References. Updated to StyleCop.Analyzers 1.1.0-beta007.</releaseNotes>
