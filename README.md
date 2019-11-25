@@ -1,2 +1,2 @@
 # cr-csharp-codestyle
-The custom ruleset file for Style Cop used at Cognisant Research
+The custom ruleset file for Style Cop used at Corsham Science.
