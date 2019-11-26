@@ -1,3 +1,3 @@
 *.nupkg
 .nuget
-CR.CodeStyle.CSharp.Full.props
+CorshamScience.CodeStyle.CSharp.Full.props
